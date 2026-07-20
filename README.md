@@ -1,55 +1,12 @@
-# README Template
+# Product Recommendation Pipeline
 
-Below is a template provided for use when building your README file for students.
+This project predicts whether a customer recommends a women's clothing product. The complete scikit-learn pipeline handles numeric, categorical, and review text/title features, engineers review length, and tunes logistic-regression regularization with cross-validation.
 
-# Project Title
+## Run
 
-Project description goes here.
-
-## Getting Started
-
-Instructions for how to get a copy of the project running on your local machine.
-
-### Dependencies
-
-```
-Examples here
+```powershell
+python -m pip install -r requirements.txt
+python solution.py
 ```
 
-### Installation
-
-Step by step explanation of how to get a dev environment running.
-
-List out the steps
-
-```
-Give an example here
-```
-
-## Testing
-
-Explain the steps needed to run any automated tests
-
-### Break Down Tests
-
-Explain what each test does and why
-
-```
-Examples here
-```
-
-## Project Instructions
-
-This section should contain all the student deliverables for this project.
-
-## Built With
-
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
-
-Include all items used to build project.
-
-## License
-
-[License](LICENSE.txt)
+`Data_Science_Pipeline.ipynb` is the executed notebook deliverable. `solution.py` contains the reusable pipeline and training function. The included `data/reviews.csv` has 18,442 anonymized reviews.
